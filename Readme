@@ -1,0 +1,50 @@
+# 📘 StudyMate — AI-Powered PDF Learning Assistant
+
+StudyMate is an AI-driven study companion that helps students learn, revise, and understand content faster.  
+It can **scan PDFs**, **extract text**, **summarize using AI**, and **generate smart notes** — all inside a clean and simple Streamlit web app.
+
+---
+
+## 🚀 Features
+
+### 📄 PDF Scanner
+- Upload any PDF file  
+- Automatically extracts text using PyPDF2 / pdfplumber  
+- Supports multi-page academic documents, notes, and reports  
+
+### 🤖 AI Text Summarization (Google Gemini)
+- Generates clean and accurate summaries  
+- Maintains context and structure  
+- Helps in quick revision  
+
+### 📝 AI Notes Generator
+- Creates bullet points and key highlights  
+- Ideal for exam preparation  
+- Easy to copy or download  
+
+### 🎯 Clean UI
+- Built with Streamlit  
+- Fast, lightweight, and beginner-friendly  
+
+---
+
+## 🧠 Tech Stack
+
+- **Python**
+- **Streamlit**
+- **Google GenerativeAI (Gemini API)**
+- **PyPDF2**
+- **pdfplumber**
+---
+
+## 📂 Project Structure
+StudyMate/
+│── studymate.py
+│── requirements.txt
+│── README.md
+│── sample_pdfs/ (optional)
+└── assets/ (optional)
+
+
+
+
